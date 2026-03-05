@@ -1,0 +1,100 @@
+.splash {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-primary);
+    padding: 40px 20px;
+}
+
+.splash-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    animation: fadeIn 0.8s ease;
+}
+
+.splash-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.splash-logo-img {
+    height: 120px;
+    width: auto;
+}
+
+.splash-360 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #032D70;
+    margin-top: -4px;
+    letter-spacing: 2px;
+}
+
+.splash-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--navy-900);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.splash-subtitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    letter-spacing: 1px;
+}
+
+.splash-line {
+    width: 30px;
+    height: 1.5px;
+    background: var(--text-secondary);
+}
+
+.splash-progress-container {
+    width: 240px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.splash-progress {
+    width: 100%;
+    height: 8px;
+    background: #032D70;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.splash-progress-fill {
+    height: 100%;
+    background: #4a90d9;
+    border-radius: 4px;
+    transition: width 0.1s linear;
+}
+
+.splash-loading {
+    text-align: right;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    letter-spacing: 2px;
+}
+
+.splash-footer {
+    position: absolute;
+    bottom: 30px;
+    font-size: 11px;
+    color: var(--text-tertiary);
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" overflow="visible" fill="#ffffff">
+  <!-- Top horizontal bar with rounded right end -->
+  <rect x="30" y="10" width="160" height="24" rx="4"/>
+  <!-- Left vertical bar -->
+  <rect x="30" y="10" width="24" height="180" rx="0"/>
+  <!-- Right vertical hook descending from top-right -->
+  <rect x="166" y="10" width="24" height="60" rx="0"/>
+  <rect x="166" y="66" width="24" height="4" rx="12"/>
+  <!-- Bottom-left inner bracket - horizontal -->
+  <rect x="80" y="100" width="80" height="20" rx="4"/>
+  <!-- Bottom-left inner bracket - left vertical -->
+  <rect x="80" y="100" width="20" height="80" rx="0"/>
+  <!-- Bottom-left inner bracket - bottom horizontal -->
+  <rect x="80" y="160" width="50" height="20" rx="0"/>
+  <!-- Rounded inner corner bottom-right of inner bracket -->
+  <rect x="126" y="100" width="4" height="24" rx="12"/>
+  <!-- 360 text -->
+  <text x="140" y="210" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">360</text>
+</svg>

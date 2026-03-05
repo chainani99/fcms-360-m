@@ -1,0 +1,224 @@
+.profile-page {
+    min-height: 100vh;
+    background: var(--bg-primary);
+    padding-bottom: calc(var(--bottom-nav-height) + 20px);
+}
+
+.profile-back {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    background: var(--bg-white);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.profile-back-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-back-info h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.profile-back-info p {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+/* User Card */
+.profile-user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 20px 24px;
+    background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+}
+
+.profile-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: var(--bg-secondary);
+    border: 3px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    box-shadow: var(--shadow-md);
+}
+
+.profile-avatar svg {
+    color: var(--text-tertiary);
+}
+
+.profile-user-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.profile-user-role {
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Contact Card */
+.profile-contact {
+    margin: 16px;
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    padding: 18px 20px;
+    box-shadow: var(--shadow-sm);
+}
+
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.contact-row:not(:last-child) {
+    border-bottom: 1px solid var(--border-light);
+}
+
+.contact-label {
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.contact-value {
+    font-size: 14px;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* Settings */
+.profile-settings-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+    padding: 0 16px;
+    margin-bottom: 10px;
+}
+
+.profile-settings-card {
+    margin: 0 16px;
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+.settings-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.settings-row:hover {
+    background: var(--bg-secondary);
+}
+
+.settings-row:not(:last-child) {
+    border-bottom: 1px solid var(--border-light);
+}
+
+.settings-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.settings-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-md);
+    background: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+}
+
+.settings-text h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.settings-text p {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+.settings-arrow {
+    color: var(--text-tertiary);
+}
+
+/* Logout */
+.profile-logout {
+    margin: 24px 16px 16px;
+}
+
+.logout-btn {
+    width: 100%;
+    padding: 14px;
+    background: var(--red-500);
+    color: white;
+    border: none;
+    border-radius: var(--radius-lg);
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 0.3px;
+}
+
+.logout-btn:hover {
+    background: #c82333;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.logout-btn:active {
+    transform: translateY(0);
+}
+
+/* Role Badge */
+.profile-role-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    padding: 4px 14px;
+    background: rgba(3, 45, 112, 0.08);
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--navy-900);
+}
+
+/* Formation info */
+.profile-formation {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    margin-top: 6px;
+}

@@ -1,0 +1,143 @@
+.billing-page {
+    padding-bottom: calc(var(--bottom-nav-height) + 16px);
+}
+
+.billing-content {
+    padding: 16px;
+}
+
+.billing-header-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.billing-heading {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.billing-sub {
+    font-size: 11px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+.billing-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg-white);
+    border-radius: var(--radius-md);
+    padding: 10px 14px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow-sm);
+}
+
+.billing-search input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-family: var(--font-family);
+    background: transparent;
+}
+
+.billing-cycle-badge {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.billing-stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.bill-stat-card {
+    background: var(--bg-white);
+    border-radius: var(--radius-md);
+    padding: 14px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.bsc-number {
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.bsc-label {
+    font-size: 11px;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.billing-list-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.bill-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bill-item {
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    padding: 14px 16px;
+    box-shadow: var(--shadow-sm);
+}
+
+.bill-item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+.bill-number {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--navy-900);
+}
+
+.bill-dot {
+    margin: 0 6px;
+    color: var(--text-tertiary);
+}
+
+.bill-contractor {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.bill-amount {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.bill-project {
+    font-size: 11px;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+}
+
+.bill-item-bottom {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bill-due-text {
+    font-size: 11px;
+    color: var(--red-500);
+    font-weight: 600;
+}
